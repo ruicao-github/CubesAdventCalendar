@@ -4,6 +4,26 @@
 	box-sizing: border-box;
 }
 
+.iframe-container-size{
+	width: 70%;
+	margin: 2vw;
+}
+
+.iframe-container {
+  overflow: hidden;
+  padding-top: 56.25%;
+  position: relative;
+}
+
+.iframe-container iframe {
+   border: 0;
+   height: 100%;
+   left: 0;
+   position: absolute;
+   top: 0;
+   width: 100%;
+}
+
 body {
 	font-family: 'Playfair Display', serif;
 	color: #3f3f45;
@@ -123,9 +143,9 @@ main {
 }
 
 .codrops-header__title {
-	font-size: 1.5em;
+	font-size: 2em;
 	font-weight: 700;
-	margin: 0;
+	margin: 1vw;
 	line-height: 0.8;
 	padding: 0 0 0.1em 0;
 }
@@ -465,13 +485,14 @@ main {
 }
 
 .content__description {
-	font-size: 2.25vw;
+	font-size: 2.5vw;
 	margin: 1em 0;
 	padding: 0 0 0 5vw;
 }
 
 .content__meta {
 	font-family: 'Avenir Next', Avenir, 'Helvetica Neue', Helvetica, 'Segoe UI', Arial, sans-serif;
+	font-size:2vw;
 	margin: 0;
 	padding: 0 0 0 2vw;
 }
